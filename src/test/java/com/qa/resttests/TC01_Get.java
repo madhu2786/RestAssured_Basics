@@ -13,6 +13,7 @@ public class TC01_Get
 	@Test
 	public void getRequest()
 	{
+		System.out.println("Git test");
 		// Specify baseURI
 		RestAssured.baseURI="https://reqres.in/";
 		
